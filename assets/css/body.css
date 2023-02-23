@@ -1,0 +1,338 @@
+@import url("./global.css");
+
+.mt-5 {
+  margin-top: 25px;
+}
+.section_one {
+  gap: 25px;
+  align-items: start;
+}
+.dont-miss {
+  width: 100%;
+}
+
+.dont-miss__tag-title .tag-list .tab-item {
+  margin: 0px 10px;
+  padding: 0 10px;
+  color: gray;
+  text-transform: capitalize;
+  font-size: 14px;
+  cursor: pointer;
+}
+.dont-miss__tag-title .tag-list .tab-item:hover {
+  color: rgb(255, 187, 0);
+}
+.dont-miss__body-content {
+  justify-content: space-between;
+  align-items: start;
+  gap: 5px;
+}
+.dont-miss__body-content .new-detail {
+  flex: 1;
+  height: auto;
+}
+.new-detail .new-detail__img {
+  width: 400px;
+  height: auto;
+}
+.new-detail .new-detail__title {
+  cursor: pointer;
+  margin: 10px 0;
+}
+.new-detail .new-detail__title:hover {
+  color: rgb(255, 187, 0);
+}
+.new-detail .new-detail__date {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.new-detail .new-detail__content {
+  font-size: 12px;
+  color: gray;
+}
+.new-list {
+  margin-left: 15px;
+}
+.new-list li .new-item {
+  justify-content: space-between;
+  align-items: start;
+  gap: 5px;
+  margin-bottom: 15px;
+  padding: 0 10px;
+}
+.new-list .new-item .new-item__img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+.new-item h5 {
+  font-size: 14px;
+  color: var(--clr-black);
+}
+.new-item:hover h5 {
+  color: rgb(255, 187, 0);
+}
+.new-item p {
+  font-size: 12px;
+  color: gray;
+}
+/* ========= LIFESTYLE======== */
+.lifestyle {
+  margin: 30px 0;
+}
+.lifestyle__body-content {
+  justify-content: space-between;
+  align-items: start;
+  gap: 15px;
+}
+.lifestyle__body-content .new-detail {
+  flex: 1;
+  height: auto;
+  margin-right: 20px;
+}
+.lifestyle__tag-title .tag-list .tab-item {
+  margin: 0px 10px;
+  padding: 0 10px;
+  color: gray;
+  text-transform: capitalize;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.lifestyle__tag-title .tag-list .tab-item:hover {
+  color: var(--clr-green);
+}
+
+.lifestyle__body-content .new-detail .new-detail__img {
+  width: 400px;
+  height: 200px;
+  object-fit: cover;
+}
+.lifestyle__body-content .new-detail .new-detail__title {
+  color: var(--clr-black);
+}
+
+.lifestyle__body-content .new-detail .new-detail__title:hover {
+  color: var(--clr-green);
+}
+.lifestyle-news {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 15px;
+  margin-top: 30px;
+}
+.lifestyle-news__item-link {
+  justify-content: space-between;
+  gap: 10px;
+  align-items: start;
+}
+.lifestyle-news__item-link:hover .lifestyle-news__item-info h4 {
+  color: var(--clr-green);
+}
+.lifestyle-news__item-link .lifestyle-news__item-img {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+}
+.lifestyle-news__item-info {
+  margin-left: 10px;
+}
+.lifestyle-news__item-info h4 {
+  color: var(--clr-black);
+}
+.lifestyle-news__item-info p {
+  color: gray;
+  font-size: 12px;
+}
+/* ========= house slider ============ */
+.houseSlider-list {
+  justify-content: space-between;
+  gap: 20px;
+}
+.post-item {
+  width: 200px;
+  height: auto;
+}
+
+.post-item .post-item_tag {
+  position: absolute;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: var(--clr-white);
+  background: var(--clr-black);
+  padding: 3px 8px;
+  bottom: 8px;
+  left: 0;
+}
+.post-item__img {
+  position: relative;
+}
+.post-item .post-item__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.post-item p {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--clr-black);
+}
+.post-item:hover p {
+  color: var(--clr-grey);
+}
+/* ======== TRAINING ======== */
+.training {
+  margin-top: 30px;
+}
+.training-list__item {
+  justify-content: space-between;
+  gap: 10px;
+  align-items: start;
+  flex-direction: row;
+  padding: 5px 5px 5px 0;
+  margin-bottom: 10px;
+}
+.training-list__item-img {
+  width: 350px;
+  height: 150px;
+  object-fit: cover;
+}
+.training-list__item-title {
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--clr-black);
+  margin-bottom: 8px;
+}
+.training-list__item .training-list__item-author {
+  color: rgb(88, 88, 88);
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+.training-list__item-desc {
+  color: rgb(87, 87, 87);
+}
+.training-list__item:hover .training-list__item-title {
+  color: var(--clr-blue);
+}
+
+/* ============= BODY CONTENT RIGHT ============= */
+/* =========STAY CONNECTED =======*/
+.stay-connected {
+  width: 100%;
+}
+
+.stay-connected__body {
+  flex-direction: column;
+  align-items: start;
+}
+.stay-connected__body-item {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin: 15px 0;
+}
+.stay-connected__body-item__count img {
+  margin-right: 5px;
+}
+.stay-connected__body-item .stay-connected__body-item__img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+.stay-connected__body-item__count span {
+  color: rgb(59, 59, 59);
+  font-weight: bold;
+  text-transform: capitalize;
+  font-size: 13px;
+}
+.text-bold {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.stay-connected__image-ads {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 20px 0;
+}
+
+.stay-connected__image-ads img {
+  width: 100%;
+  height: 100%;
+}
+/* ========= MODERN =======*/
+.modern-body {
+  justify-content: start;
+  /* gap: 5px; */
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+.modern-body .modern-item {
+  width: 150px;
+  height: auto;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.modern-item .modern-item_tag {
+  position: absolute;
+  font-size: 10px;
+  text-transform: uppercase;
+  color: var(--clr-white);
+  background: var(--clr-black);
+  padding: 3px 8px;
+  bottom: 8px;
+  left: 0;
+}
+.modern-box__img {
+  position: relative;
+}
+.modern-item .modern-item__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.modern-item p {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--clr-black);
+}
+.modern-item:hover p {
+  color: var(--clr-blue);
+}
+.modern__image-ads {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 20px 0;
+  display: block;
+}
+
+.modern__image-ads img {
+  width: 100%;
+  height: 100%;
+}
+/*  =========== HOLIDAY ============ */
+.holiday-body__item {
+  width: 400px;
+  height: auto;
+}
+
+.holiday-body__item .holiday-body__item-title:hover {
+  color: var(--clr-purple);
+  cursor: pointer;
+}
+.holiday-body__item-date {
+  font-size: 14px;
+  color: gray;
+}
+.holiday-body__item-img {
+  width: 100%;
+  height: 200px;
+  margin: 5px 0;
+}
+.holiday-body__item-description {
+  font-size: 13px;
+  color: gray;
+}

@@ -1,0 +1,110 @@
+@import url("./global.css");
+
+.footer {
+  margin-top: 30px;
+  background-image: url("https://images.unsplash.com/photo-1461884430365-0a87b6123549?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  width: 100%;
+  position: relative;
+  color: var(--clr-white);
+  z-index: 100;
+  padding: 30px 0;
+}
+
+.footer-content {
+  z-index: 50;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: start !important;
+  border-bottom: 1px solid rgb(88, 88, 88);
+}
+
+.footer-box__item-title {
+  color: var(--clr-white);
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
+.footer-box__item {
+  width: 32%;
+}
+.footer-box__item-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+.footer-box__item-post {
+  justify-content: start;
+  align-items: start !important;
+  margin: 10px 0;
+}
+.footer-box__item-post__img {
+  width: 200px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+.footer-box__item-post__title {
+  color: var(--clr-white);
+  font-weight: bold;
+}
+.footer-box__item-post:hover .footer-box__item-post__title {
+  color: var(--clr-blue);
+}
+.footer-box__item-post__date {
+  color: rgb(179, 179, 179);
+  font-size: 14px;
+}
+.footer-category__list {
+  margin: 20px 0;
+}
+.footer-category__item {
+  justify-content: space-between;
+  color: var(--clr-white);
+  padding: 5px 0;
+  margin: 5px 0;
+}
+.footer-category__item span:first-child {
+  text-transform: capitalize;
+}
+.footer-category__item:hover span {
+  color: var(--clr-blue);
+}
+.footer-contact {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+}
+.footer-info {
+  width: 40%;
+}
+.footer-contact__title {
+  color: var(--clr-white);
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.footer-info p {
+  margin: 10px 0;
+}
+.email-contact {
+  color: var(--clr-blue);
+}
+.footer-contact__media {
+  justify-content: start;
+  gap: 15px;
+}
+.footer-contact__media a {
+  padding: 8px;
+  background: rgba(240, 240, 240, 0.1);
+  border-radius: 2px;
+  backdrop-filter: blur(5px);
+}

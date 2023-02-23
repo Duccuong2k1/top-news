@@ -1,0 +1,55 @@
+@import url("./global.css");
+.body-content__left {
+  flex: 1;
+  width: 60% !important;
+}
+.body-content__right {
+  width: 25%;
+}
+
+.tag-border {
+  justify-content: space-between;
+  margin: 15px 0;
+}
+
+.tag-title {
+  padding: 5px 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: var(--clr-white);
+  font-weight: 500;
+}
+
+.border-black {
+  border-bottom: 2px solid rgb(39, 39, 39);
+}
+.bg-black {
+  background-color: rgb(32, 32, 32);
+  color: var(--clr-white);
+}
+
+.bg-yellow {
+  background-color: rgb(255, 187, 0);
+  color: var(--clr-black);
+}
+.border-yellow {
+  border-bottom: 2px solid rgb(255, 187, 0);
+}
+.bg-green {
+  background-color: #3a863d;
+}
+.border-green {
+  border-bottom: 2px solid #3a863d;
+}
+.bg-purple {
+  background-color: #8a00ca;
+}
+.border-purple {
+  border-bottom: 2px solid #8a00ca;
+}
+.bg-grey {
+  background-color: var(--clr-grey);
+}
+.border-grey {
+  border-bottom: 2px solid #5d7987;
+}
